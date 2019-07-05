@@ -1,4 +1,4 @@
-# HEXY
+# HexyJS
 
 [![Build Status](https://travis-ci.com/jecsham/hexy.svg?branch=master)](https://travis-ci.com/jecsham/hexy)
 
@@ -6,24 +6,24 @@ A simple library with some hexadecimal utilities.
 
 ## Install
 ```sh
-    $ npm install ?
+    $ npm install hexyjs
 ```
 ## Basic Usage
 
  ```js
 
-    const hexy = require("hexy");
+    const hexyjs = require("hexy");
 
-    hexy.strToHex("Cave Story");
+    hexyjs.strToHex("Cave Story");
     // => 436176652053746f7279
 
-    hexy.hexToStr("436176652053746f7279");
+    hexyjs.hexToStr("436176652053746f7279");
     // => Cave Story
 
-    hexy.isHex("436176652053746f7279");
+    hexyjs.isHex("436176652053746f7279");
     // => true
 
-    hexy.isHex("32JGD");  
+    hexyjs.isHex("32JGD");  
     // => false
 
 ```
@@ -36,10 +36,10 @@ You can use this function with options to change the output.
 
  ```js
 
-    hexy.strToHex("Cave Story", { uppercase: true });
+    hexyjs.strToHex("Cave Story", { uppercase: true });
     // => 436176652053746F7279
 
-    hexy.strToHex("Cave Story", { grouped: true });
+    hexyjs.strToHex("Cave Story", { grouped: true });
     // => 43 61 76 65 20 53 74 6f 72 79
 
 ```
