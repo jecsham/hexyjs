@@ -1,0 +1,32 @@
+{
+  "name": "hexy",
+  "version": "1.0.0",
+  "description": "Hexadecimal utilities",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "tape test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jecsham/hexy.git"
+  },
+  "keywords": [
+    "hex",
+    "hexadecimal",
+    "string",
+    "is-hexadecimal",
+    "hexadecimal-to-string",
+    "string-to-hex",
+    "str"
+  ],
+  "author": "Jecsham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jecsham/hexy/issues"
+  },
+  "homepage": "https://github.com/jecsham/hexy#readme",
+  "devDependencies": {
+    "tape": "^4.11.0"
+  }
+}
