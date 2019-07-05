@@ -1,6 +1,6 @@
 # HexyJS
 
-[![Build Status](https://travis-ci.com/jecsham/hexy.svg?branch=master)](https://travis-ci.com/jecsham/hexy)
+[![Build Status](https://travis-ci.com/jecsham/hexyjs.svg?branch=master)](https://travis-ci.com/jecsham/hexyjs)
 
 A simple library with some hexadecimal utilities.
 
