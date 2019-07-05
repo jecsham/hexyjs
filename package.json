@@ -1,5 +1,5 @@
 {
-  "name": "hexy",
+  "name": "hexyjs",
   "version": "1.0.0",
   "description": "Hexadecimal utilities",
   "main": "index.js",
@@ -9,23 +9,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jecsham/hexy.git"
+    "url": "git+https://github.com/jecsham/hexyjs.git"
   },
   "keywords": [
     "hex",
     "hexadecimal",
     "string",
+    "utitilies",
     "is-hexadecimal",
     "hexadecimal-to-string",
     "string-to-hex",
-    "str"
+    "str",
+    "hexyjs"
   ],
   "author": "Jecsham",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jecsham/hexy/issues"
+    "url": "https://github.com/jecsham/hexyjs/issues"
   },
-  "homepage": "https://github.com/jecsham/hexy#readme",
+  "homepage": "https://github.com/jecsham/hexyjs#readme",
   "devDependencies": {
     "tape": "^4.11.0"
   }
