@@ -1,7 +1,7 @@
 # hexyjs
 [![NPM](https://nodei.co/npm/hexyjs.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/hexyjs/)
 
-[![Build Status](https://travis-ci.com/jecsham/hexyjs.svg?branch=master)](https://travis-ci.com/jecsham/hexyjs) ![Codecov branch](https://img.shields.io/codecov/c/github/jecsham/hexyjs/master.svg) ![GitHub package.json version](https://img.shields.io/github/package-json/v/jecsham/hexyjs.svg)
+[![Build Status](https://travis-ci.com/jecsham/hexyjs.svg?branch=master)](https://travis-ci.com/jecsham/hexyjs) [![Codecov branch](https://img.shields.io/codecov/c/github/jecsham/hexyjs/master.svg)](https://codecov.io/gh/jecsham/hexyjs) [![GitHub package.json version](https://img.shields.io/github/package-json/v/jecsham/hexyjs.svg)](package.json)
 
 A simple library with some hexadecimal utilities.
 
