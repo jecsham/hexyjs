@@ -13,7 +13,7 @@ A simple library with some hexadecimal utilities.
 
  ```js
 
-    const hexyjs = require("hexy");
+    const hexyjs = require("hexyjs");
     
     /* String to Hexadecimal  */
 
