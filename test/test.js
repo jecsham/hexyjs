@@ -14,6 +14,8 @@ test("hexy", t => {
     t.notEqual(hexy.hexToStr("436176652053746F7279"), "cave story");
     t.notEqual(hexy.hexToStr("43 61 76 65 20 53 74 6f 72 79"), "cave story");
     t.notEqual(hexy.hexToStr("43 61 76 65 20 53 74 6F 72 79"), "cave story");
+    t.notEqual(hexy.hexToStr("436176652053746F72793"), "cave story");
+    t.notEqual(hexy.hexToStr("43 61 76 65 20 53 74 6F 72 79 3"), "cave story");
 
     /* strToHex */
     t.equal(hexy.strToHex("Cave Story"), "436176652053746f7279");
