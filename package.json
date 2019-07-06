@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node .",
-    "test": "tape test/test.js"
+    "test": "nyc --reporter lcov tape test/test.js"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/jecsham/hexyjs#readme",
   "devDependencies": {
+    "nyc": "^14.1.1",
     "tape": "^4.11.0"
   }
 }
