@@ -32,9 +32,14 @@ test("hexy", t => {
     t.ok(hexy.isHex("436176652053746F7279"));
     t.ok(hexy.isHex("43 61 76 65 20 53 74 6f 72 79"));
     t.ok(hexy.isHex("43 61 76 65 20 53 74 6F 72 79"));
+    t.ok(hexy.isHex("436176652053746f727", false));
+    t.ok(hexy.isHex("436176652053746f7279", false));
+    t.ok(hexy.isHex("43 61 76 65 20 53 74 6f 72 79 3", false));
     
     t.notOk(hexy.isHex("436176652053746f727"));
     t.notOk(hexy.isHex("43 61 76 65 20 53 74 6F 72 7"));
+    t.notOk(hexy.isHex("43 61 76 65 20 53 74 6f 72 79 H", false));
+    t.notOk(hexy.isHex("436176652053746f7279H", false));
 
     t.end();
 })
