@@ -6,7 +6,7 @@ module.exports = (str, options) => {
     }
     if (options) {
         if (options.grouped) {
-            hex = hex.replace(/(.{2})/g, "$1 ");
+            hex = hex.replace(/(.{2})/g, "$1 ").slice(0, -1);
         }
         if (options.uppercase) {
             hex = hex.toUpperCase();
