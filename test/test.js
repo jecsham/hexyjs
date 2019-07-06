@@ -17,12 +17,15 @@ test("hexy", t => {
 
     /* strToHex */
     t.equal(hexy.strToHex("Cave Story"), "436176652053746f7279");
-    t.equal(hexy.strToHex("Cave Story", { gropued: true }), "436176652053746f7279");
-    t.equal(hexy.strToHex("Cave Story", { gropued: true, uppercase: true }), "436176652053746F7279");
+    t.equal(hexy.strToHex("Cave Story", { grouped: true }), "43 61 76 65 20 53 74 6f 72 79");
+    t.equal(hexy.strToHex("Cave Story", { grouped: true, uppercase: true }), "43 61 76 65 20 53 74 6F 72 79");
+    t.equal(hexy.strToHex("Cave Story", { uppercase: true }), "436176652053746F7279");
     
     t.notEqual(hexy.strToHex("cave story"), "436176652053746f7279");
-    t.notEqual(hexy.strToHex("cave story", { gropued: true }), "436176652053746f7279");
-    t.notEqual(hexy.strToHex("cave story", { gropued: true, uppercase: true }), "436176652053746F7279");
+    t.notEqual(hexy.strToHex("Cave Story"), "436176652053746F7279");
+    t.notEqual(hexy.strToHex("Cave Story", { grouped: true }), "436176652053746f7279");
+    t.notEqual(hexy.strToHex("Cave Story", { grouped: true, uppercase: true }), "43 61 76 65 20 53 74 6f 72 79");
+    t.notEqual(hexy.strToHex("Cave Story", { uppercase: true }), "436176652053746f7279");
 
     /* isHex */
     t.ok(hexy.isHex("436176652053746f7279"));
