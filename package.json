@@ -14,9 +14,12 @@
   "keywords": [
     "hex",
     "hexadecimal",
+    "numerical",
+    "character",
     "string",
     "utitilies",
     "is-hexadecimal",
+    "is-hex",
     "hexadecimal-to-string",
     "string-to-hex",
     "str",
