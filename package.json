@@ -1,6 +1,6 @@
 {
   "name": "hexyjs",
-  "version": "1.2.1",
+  "version": "2.0.0",
   "description": "Hexadecimal utilities",
   "main": "index.js",
   "scripts": {
@@ -14,13 +14,22 @@
   "keywords": [
     "hex",
     "hexadecimal",
+    "numerical",
+    "character",
     "string",
     "utitilies",
     "is-hexadecimal",
+    "is-hex",
     "hexadecimal-to-string",
     "string-to-hex",
     "str",
-    "hexyjs"
+    "hexyjs",
+    "hexadecimal-utilities",
+    "hex-utilities",
+    "encode",
+    "decode",
+    "encode-hexadecimal",
+    "decode-hexadecimal"
   ],
   "author": "Jecsham",
   "license": "MIT",

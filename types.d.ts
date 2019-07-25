@@ -19,11 +19,11 @@ export function hexToStr(hex: string): string | false;
  * @param hex - Hexadecimal string
  * @param stric - Enable/disable stric mode
  */
-export function isHex(hex: string, stric: boolean): boolean;
+export function isHex(hex: string, stric?: boolean): boolean;
 
 /**
  * Encode a string to a hexadecimal string
  * @param str - String to encode
  * @param options - Ouput options
  */
-export function strToHex(str: string, options: strToHexOptions): string;
+export function strToHex(str: string, options?: strToHexOptions): string;

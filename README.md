@@ -43,23 +43,13 @@ A simple library with some hexadecimal utilities.
 
 ```
 
-## strToHex() Options
-You can use this function with options to change the output.
+## API
 
-* **grouped:** string output will be grouped (*default: false*)
-* **uppercase:** string letters will be transformed to upper case. (*default: false*)
-
- ```js
-
-    hexyjs.strToHex("Cave Story", { uppercase: true });
-    // => 436176652053746F7279
-
-    hexyjs.strToHex("Cave Story", { grouped: true });
-    // => 43 61 76 65 20 53 74 6f 72 79
-
-```
-## isHex() strict option
-Strict option is enabled by default, that means the function will return false if the string length is not divisible by 2. If you disabled it, you can validate characters for example. Check out the following example.
+### `hexToStr(hex: string): string | false`
+Decode a hexadecimal string
+### `isHex(hex: string, stric?: boolean): boolean`
+Validate a hexadecimal string.
+* **strict:** The function will return false if the string length is not divisible by 2. If you disabled it, you can validate strings with any length. Check the following example.
 
  ```js
 
@@ -68,6 +58,28 @@ Strict option is enabled by default, that means the function will return false i
 
     hexyjs.isHex("1", false); // strict disabled  
     // => true
+```
+
+### `strToHex(str: string, options?: strToHexOptions): string`
+Encode a string to a hexadecimal string.
+You can use this function with options to change the output.
+
+* **grouped:** Enable/disable grouped output. (*default: false*)
+* **uppercase:** Enable/disable the uppercase output. (*default: false*)
+
+```js
+strToHexOptions {
+    uppercase?: boolean,
+    grouped?: boolean
+}
+```
+```js
+
+    hexyjs.strToHex("Cave Story", { uppercase: true });
+    // => 436176652053746F7279
+
+    hexyjs.strToHex("Cave Story", { grouped: true });
+    // => 43 61 76 65 20 53 74 6f 72 79
 
 ```
 
