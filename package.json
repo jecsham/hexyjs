@@ -23,7 +23,13 @@
     "hexadecimal-to-string",
     "string-to-hex",
     "str",
-    "hexyjs"
+    "hexyjs",
+    "hexadecimal-utilities",
+    "hex-utilities",
+    "encode",
+    "decode",
+    "encode-hexadecimal",
+    "decode-hexadecimal"
   ],
   "author": "Jecsham",
   "license": "MIT",
