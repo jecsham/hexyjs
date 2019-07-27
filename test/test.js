@@ -9,6 +9,8 @@ test("hexy", t => {
     t.equal(hexy.hexToStr("436176652053746F7279"), "Cave Story");
     t.equal(hexy.hexToStr("43 61 76 65 20 53 74 6f 72 79"), "Cave Story");
     t.equal(hexy.hexToStr("43 61 76 65 20 53 74 6F 72 79"), "Cave Story");
+    t.equal(hexy.hexToStr("43 61 76 65 20 53 74 6F 72 7H"), false);
+    t.equal(hexy.hexToStr("J436176652053746F727H"), false);
 
     t.notEqual(hexy.hexToStr("436176652053746f7279"), "cave story");
     t.notEqual(hexy.hexToStr("436176652053746F7279"), "cave story");

@@ -1,7 +1,7 @@
 # hexyjs
 [![NPM](https://nodei.co/npm/hexyjs.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/hexyjs/)
 
-[![Build Status](https://travis-ci.com/jecsham/hexyjs.svg?branch=master)](https://travis-ci.com/jecsham/hexyjs) [![Codecov branch](https://img.shields.io/codecov/c/github/jecsham/hexyjs/master.svg)](https://codecov.io/gh/jecsham/hexyjs) [![GitHub package.json version](https://img.shields.io/github/package-json/v/jecsham/hexyjs.svg)](package.json)
+[![Build Status](https://travis-ci.com/jecsham/hexyjs.svg?branch=master)](https://travis-ci.com/jecsham/hexyjs) [![Codecov branch](https://img.shields.io/codecov/c/github/jecsham/hexyjs/master.svg)](https://codecov.io/gh/jecsham/hexyjs) [![GitHub package.json version](https://img.shields.io/github/package-json/v/jecsham/hexyjs.svg)](https://github.com/jecsham/hexyjs/releases)
 
 A simple library with some hexadecimal utilities.
 
@@ -49,7 +49,7 @@ A simple library with some hexadecimal utilities.
 Decode a hexadecimal string
 ### `isHex(hex: string, stric?: boolean): boolean`
 Validate a hexadecimal string.
-* **strict:** The function will return false if the string length is not divisible by 2. If you disabled it, you can validate strings with any length. Check the following example.
+* **strict:** If enabled, this will return false if the string length is not divisible by 2. If you disabled it, you can validate strings with any length. Check the following example. (*default: false*)
 
  ```js
 
