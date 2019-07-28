@@ -49,7 +49,7 @@ A simple library with some hexadecimal utilities.
 Decode a hexadecimal string
 ### `isHex(hex: string, stric?: boolean): boolean`
 Validate a hexadecimal string.
-* **strict:** If enabled, this will return false if the string length is not divisible by 2. If you disabled it, you can validate strings with any length. Check the following example. (*default: false*)
+* **strict:** If enabled, this will return false if the string length is not divisible by 2 (invalid hexadecimal string length). If you disabled it, you can validate strings with any length. Check the following example. (*default: true*)
 
  ```js
 
