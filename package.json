@@ -1,6 +1,6 @@
 {
   "name": "hexyjs",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Hexadecimal utilities",
   "main": "index.js",
   "scripts": {
