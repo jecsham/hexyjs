@@ -39,6 +39,6 @@
   "homepage": "https://github.com/jecsham/hexyjs#readme",
   "devDependencies": {
     "nyc": "^14.1.1",
-    "tape": "^4.11.0"
+    "tape": "^5.0.1"
   }
 }
