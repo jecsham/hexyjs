@@ -38,7 +38,7 @@
   },
   "homepage": "https://github.com/jecsham/hexyjs#readme",
   "devDependencies": {
-    "nyc": "^14.1.1",
+    "nyc": "^15.1.0",
     "tape": "^5.0.1"
   }
 }
